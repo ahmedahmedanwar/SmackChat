@@ -15,6 +15,7 @@
 		E2ABB588238ACA3A00AAEE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2ABB586238ACA3A00AAEE84 /* Main.storyboard */; };
 		E2ABB58A238ACA3B00AAEE84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2ABB589238ACA3B00AAEE84 /* Assets.xcassets */; };
 		E2ABB58D238ACA3B00AAEE84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2ABB58B238ACA3B00AAEE84 /* LaunchScreen.storyboard */; };
+		E2F4160C238C027800324E60 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4160B238C027800324E60 /* GradientView.swift */; };
 		F3F1D20DA5290A0DD8704559 /* Pods_SmackChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FB214C3A61662FA9F10516 /* Pods_SmackChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		E2ABB589238ACA3B00AAEE84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2ABB58C238ACA3B00AAEE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2ABB58E238ACA3B00AAEE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F4160B238C027800324E60 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				E2ABB594238ACA5200AAEE84 /* Controller */,
 				E24AE892238BBB0F008A6EFF /* Model */,
+				E2F4160A238C023200324E60 /* View models */,
 				E2ABB595238ACA7100AAEE84 /* Views */,
 				E24AE88C238BB7D7008A6EFF /* Supporting Files */,
 				E2ABB589238ACA3B00AAEE84 /* Assets.xcassets */,
@@ -131,6 +134,14 @@
 				E2ABB586238ACA3A00AAEE84 /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E2F4160A238C023200324E60 /* View models */ = {
+			isa = PBXGroup;
+			children = (
+				E2F4160B238C027800324E60 /* GradientView.swift */,
+			);
+			path = "View models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +262,7 @@
 			files = (
 				E24AE894238BC377008A6EFF /* ChatVC.swift in Sources */,
 				E2ABB581238ACA3A00AAEE84 /* AppDelegate.swift in Sources */,
+				E2F4160C238C027800324E60 /* GradientView.swift in Sources */,
 				E2ABB583238ACA3A00AAEE84 /* SceneDelegate.swift in Sources */,
 				E24AE890238BB809008A6EFF /* SWRevealViewController.m in Sources */,
 				E24AE896238BC39E008A6EFF /* ChannelVC.swift in Sources */,
