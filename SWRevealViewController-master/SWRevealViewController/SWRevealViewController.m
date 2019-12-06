@@ -646,7 +646,7 @@ const int FrontViewPositionNone = 0xff;
     _rightViewPosition = FrontViewPositionLeft;
     _rearViewRevealWidth = 260.0f;
     _rearViewRevealOverdraw = 60.0f;
-    _rearViewRevealDisplacement = 40.0f;
+    _rearViewRevealDisplacement = 100.0f;
     _rightViewRevealWidth = 260.0f;
     _rightViewRevealOverdraw = 60.0f;
     _rightViewRevealDisplacement = 40.0f;
@@ -655,11 +655,11 @@ const int FrontViewPositionNone = 0xff;
     _stableDragOnOverdraw = NO;
     _stableDragOnLeftOverdraw = NO;
     _presentFrontViewHierarchically = NO;
-    _quickFlickVelocity = 250.0f;
-    _toggleAnimationDuration = 0.8;
+    _quickFlickVelocity = 300.0f;
+    _toggleAnimationDuration = 0.7;
     _toggleAnimationType = SWRevealToggleAnimationTypeSpring;
     _springDampingRatio = 1;
-    _replaceViewAnimationDuration = 0.30;
+    _replaceViewAnimationDuration = 0.7;
     _frontViewShadowRadius = 3.0f;
     _frontViewShadowOffset = CGSizeMake(0.0f, 3.0f);
     _frontViewShadowOpacity = 0.5f;
@@ -668,7 +668,7 @@ const int FrontViewPositionNone = 0xff;
     _animationQueue = [NSMutableArray array];
     _draggableBorderWidth = 0.0f;
     _clipsViewsToBounds = YES;
-    _extendsPointInsideHit = YES;
+    _extendsPointInsideHit = NO;
 }
 
 

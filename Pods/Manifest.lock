@@ -4,11 +4,13 @@ PODS:
     - Starscream (~> 3.1)
   - Starscream (3.1.1)
   - SwiftyJSON (5.0.0)
+  - TransitionButton (0.5.2)
 
 DEPENDENCIES:
   - Alamofire
   - Socket.IO-Client-Swift
   - SwiftyJSON
+  - TransitionButton
 
 SPEC REPOS:
   trunk:
@@ -16,13 +18,15 @@ SPEC REPOS:
     - Socket.IO-Client-Swift
     - Starscream
     - SwiftyJSON
+    - TransitionButton
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
 
-PODFILE CHECKSUM: 0e76b74340968754869867b2452f9a0a1029947e
+PODFILE CHECKSUM: f49bf1887d63f1d700d1da183bd316ba95dbb198
 
 COCOAPODS: 1.8.4
