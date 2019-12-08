@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2050F24239B43DB0009D0EC /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2050F23239B43DB0009D0EC /* RoundedButton.swift */; };
 		E24AE890238BB809008A6EFF /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24AE88F238BB809008A6EFF /* SWRevealViewController.m */; };
 		E24AE894238BC377008A6EFF /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24AE893238BC377008A6EFF /* ChatVC.swift */; };
 		E24AE896238BC39E008A6EFF /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24AE895238BC39E008A6EFF /* ChannelVC.swift */; };
@@ -27,6 +28,7 @@
 		42FB214C3A61662FA9F10516 /* Pods_SmackChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmackChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		483FFF3248D6022664D06EF8 /* Pods-SmackChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackChat.release.xcconfig"; path = "Target Support Files/Pods-SmackChat/Pods-SmackChat.release.xcconfig"; sourceTree = "<group>"; };
 		79FA82AA609152F883547E46 /* Pods-SmackChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackChat.debug.xcconfig"; path = "Target Support Files/Pods-SmackChat/Pods-SmackChat.debug.xcconfig"; sourceTree = "<group>"; };
+		E2050F23239B43DB0009D0EC /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		E24AE88D238BB809008A6EFF /* SmackChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmackChat-Bridging-Header.h"; sourceTree = "<group>"; };
 		E24AE88E238BB809008A6EFF /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = SOURCE_ROOT; };
 		E24AE88F238BB809008A6EFF /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = SOURCE_ROOT; };
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				E2F4160B238C027800324E60 /* GradientView.swift */,
+				E2050F23239B43DB0009D0EC /* RoundedButton.swift */,
 			);
 			path = "View models";
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				E2F41611238C2D6C00324E60 /* LoginVC.swift in Sources */,
 				E2D7B84E238D898200B98044 /* CreatAccountVC.swift in Sources */,
 				E2F4160C238C027800324E60 /* GradientView.swift in Sources */,
+				E2050F24239B43DB0009D0EC /* RoundedButton.swift in Sources */,
 				E2ABB583238ACA3A00AAEE84 /* SceneDelegate.swift in Sources */,
 				E2F4160F238C1D1B00324E60 /* Constants.swift in Sources */,
 				E24AE890238BB809008A6EFF /* SWRevealViewController.m in Sources */,

@@ -13,5 +13,7 @@ pod 'SwiftyJSON'
 
 pod 'Socket.IO-Client-Swift'
 pod 'TransitionButton'
+pod 'DCAnimationKit'
+
 
 end

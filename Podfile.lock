@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
+  - DCAnimationKit (0.0.6)
   - Socket.IO-Client-Swift (15.2.0):
     - Starscream (~> 3.1)
   - Starscream (3.1.1)
@@ -8,6 +9,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - DCAnimationKit
   - Socket.IO-Client-Swift
   - SwiftyJSON
   - TransitionButton
@@ -15,6 +17,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - DCAnimationKit
     - Socket.IO-Client-Swift
     - Starscream
     - SwiftyJSON
@@ -22,11 +25,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DCAnimationKit: 7133bef877ce1aa113dcfeea1380ca67f91f7608
   Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
 
-PODFILE CHECKSUM: f49bf1887d63f1d700d1da183bd316ba95dbb198
+PODFILE CHECKSUM: f69c867cf0bdb5218703a469f2e4a08ab564fec4
 
 COCOAPODS: 1.8.4
