@@ -9,6 +9,7 @@
 import UIKit
 import DCAnimationKit
 import TransitionButton
+import Alamofire
 
 class CreatAccountVC: UIViewController {
     
@@ -65,7 +66,10 @@ class CreatAccountVC: UIViewController {
                             self.performSegue(withIdentifier: UNWIND, sender: nil)
                         }else {
                             
-                            debugPrint(Error.self)
+                         //   debugPrint(Error.self)
+                            
+                            print("error")
+                            
                         }
                     }
                     

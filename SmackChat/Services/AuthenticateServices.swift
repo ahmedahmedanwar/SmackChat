@@ -68,14 +68,18 @@ class AuthService {
             "password" : password
         ]
         
-        Alamofire.request(  URL_REGISTER, method: .post, parameters: body, encoding: JSONEncoding.default, headers: HEADER).validate().responseString { (response) in
+        Alamofire.request(  URL_REGISTER, method: .post, parameters: body, encoding: JSONEncoding.default, headers: HEADER).responseString { (response) in
             if response.result.error == nil {
                 
                 completion (true)
             }else {
                 
                 completion (false)
-                
+                print(response.request as Any)  // original URL request
+                           print(response.response as Any) // URL response
+                           print(response.result.value as Any)   // result of response serialization
+
+                           debugPrint(response)
                 debugPrint(response.result.error as Any)
             }
         }
@@ -163,7 +167,6 @@ class AuthService {
                     UserDataService.instance.setUserData(id: id, color: color, avatarName: avatarName, email: email, name: name)
                     completion(true)
                 }catch{
-                    
                     print("error")
                 }
                 
