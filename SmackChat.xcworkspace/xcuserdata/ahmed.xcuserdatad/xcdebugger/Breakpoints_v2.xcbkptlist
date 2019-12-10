@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F5B4EBCE-A730-437A-8BBB-1EB514B9ABFC"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2A40DCD-7978-4D26-9878-816575DC3754"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmackChat/Controller/CreatAccountVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "createAccountBtn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D2A40DCD-7978-4D26-9878-816575DC3754 - a541db0ce66bd5bf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmackChat.CreatAccountVC.createAccountBtn(TransitionButton.TransitionButton) -&gt; ()"
+                  moduleName = "SmackChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmed/Desktop/IOS%20Projects/SmackChat/SmackChat/Controller/CreatAccountVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "3346">
+               </Location>
+               <Location
+                  uuid = "D2A40DCD-7978-4D26-9878-816575DC3754 - 80d3f282b9b8f361"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in SmackChat.CreatAccountVC.createAccountBtn(TransitionButton.TransitionButton) -&gt; ()"
+                  moduleName = "SmackChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmed/Desktop/IOS%20Projects/SmackChat/SmackChat/Controller/CreatAccountVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "278">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C85F52E9-ADE2-4095-8260-1FE69E5D68A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmackChat/Controller/CreatAccountVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "createAccountBtn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C85F52E9-ADE2-4095-8260-1FE69E5D68A6 - 80d3f282b9b8f361"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in SmackChat.CreatAccountVC.createAccountBtn(TransitionButton.TransitionButton) -&gt; ()"
+                  moduleName = "SmackChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmed/Desktop/IOS%20Projects/SmackChat/SmackChat/Controller/CreatAccountVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "287">
+               </Location>
+               <Location
+                  uuid = "C85F52E9-ADE2-4095-8260-1FE69E5D68A6 - d9d24e7482993724"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 (Swift.Bool) -&gt; () in SmackChat.CreatAccountVC.createAccountBtn(TransitionButton.TransitionButton) -&gt; ()"
+                  moduleName = "SmackChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmed/Desktop/IOS%20Projects/SmackChat/SmackChat/Controller/CreatAccountVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "189">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E506649-D23A-4393-8FB0-FACF9741258A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmackChat/Controller/CreatAccountVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "createAccountBtn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3E506649-D23A-4393-8FB0-FACF9741258A - d9d24e7482993724"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 (Swift.Bool) -&gt; () in SmackChat.CreatAccountVC.createAccountBtn(TransitionButton.TransitionButton) -&gt; ()"
+                  moduleName = "SmackChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmed/Desktop/IOS%20Projects/SmackChat/SmackChat/Controller/CreatAccountVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "477">
+               </Location>
+               <Location
+                  uuid = "3E506649-D23A-4393-8FB0-FACF9741258A - 59275f961b25a9c2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 (Swift.Bool) -&gt; () in closure #1 (Swift.Bool) -&gt; () in SmackChat.CreatAccountVC.createAccountBtn(TransitionButton.TransitionButton) -&gt; ()"
+                  moduleName = "SmackChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmed/Desktop/IOS%20Projects/SmackChat/SmackChat/Controller/CreatAccountVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
