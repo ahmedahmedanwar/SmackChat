@@ -18,6 +18,7 @@
 		E2ABB58A238ACA3B00AAEE84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2ABB589238ACA3B00AAEE84 /* Assets.xcassets */; };
 		E2ABB58D238ACA3B00AAEE84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2ABB58B238ACA3B00AAEE84 /* LaunchScreen.storyboard */; };
 		E2D7B84E238D898200B98044 /* CreatAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7B84D238D898200B98044 /* CreatAccountVC.swift */; };
+		E2EA2FE2239F3CE300C2EDB2 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA2FE1239F3CE300C2EDB2 /* UserDataService.swift */; };
 		E2F4160C238C027800324E60 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4160B238C027800324E60 /* GradientView.swift */; };
 		E2F4160F238C1D1B00324E60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4160E238C1D1B00324E60 /* Constants.swift */; };
 		E2F41611238C2D6C00324E60 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F41610238C2D6C00324E60 /* LoginVC.swift */; };
@@ -43,6 +44,7 @@
 		E2ABB58C238ACA3B00AAEE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2ABB58E238ACA3B00AAEE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D7B84D238D898200B98044 /* CreatAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatAccountVC.swift; sourceTree = "<group>"; };
+		E2EA2FE1239F3CE300C2EDB2 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		E2F4160B238C027800324E60 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		E2F4160E238C1D1B00324E60 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E2F41610238C2D6C00324E60 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				E2A26A942399E2FC0002BA3A /* AuthenticateServices.swift */,
+				E2EA2FE1239F3CE300C2EDB2 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				E2F41611238C2D6C00324E60 /* LoginVC.swift in Sources */,
 				E2D7B84E238D898200B98044 /* CreatAccountVC.swift in Sources */,
 				E2F4160C238C027800324E60 /* GradientView.swift in Sources */,
+				E2EA2FE2239F3CE300C2EDB2 /* UserDataService.swift in Sources */,
 				E2050F24239B43DB0009D0EC /* RoundedButton.swift in Sources */,
 				E2ABB583238ACA3A00AAEE84 /* SceneDelegate.swift in Sources */,
 				E2F4160F238C1D1B00324E60 /* Constants.swift in Sources */,

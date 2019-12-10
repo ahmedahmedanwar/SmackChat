@@ -288,7 +288,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creatre New Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9m-IR-Iem">
-                                <rect key="frame" x="77.5" y="124" width="259.5" height="31.5"/>
+                                <rect key="frame" x="77.5" y="94" width="259.5" height="31.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -301,7 +301,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="fTg-kJ-Z52">
-                                <rect key="frame" x="67" y="205.5" width="280" height="147"/>
+                                <rect key="frame" x="67" y="175.5" width="280" height="147"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N4k-iG-ctr">
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="17"/>
@@ -351,7 +351,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MM1-6d-fuL" customClass="RoundedButton" customModule="SmackChat" customModuleProvider="target">
-                                <rect key="frame" x="67" y="773" width="280" height="39"/>
+                                <rect key="frame" x="67" y="743" width="280" height="39"/>
                                 <color key="backgroundColor" red="0.57210093740000001" green="0.75553375479999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="cB1-sY-ZRx"/>
@@ -370,14 +370,14 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smackProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="w91-b5-xHc">
-                                <rect key="frame" x="132" y="397.5" width="150" height="150"/>
+                                <rect key="frame" x="132" y="347.5" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="Ayz-By-amj"/>
                                     <constraint firstAttribute="width" constant="150" id="wzk-Mk-HkY"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5v-p5-Tf3">
-                                <rect key="frame" x="132" y="397.5" width="150" height="175"/>
+                                <rect key="frame" x="132" y="347.5" width="150" height="175"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="175" id="wDc-cv-Kyn"/>
                                 </constraints>
@@ -389,7 +389,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUb-XQ-ar7">
-                                <rect key="frame" x="115.5" y="580.5" width="183" height="28"/>
+                                <rect key="frame" x="115.5" y="527.5" width="183" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Generate Background Colours"/>
                                 <connections>
@@ -407,14 +407,14 @@
                             <constraint firstItem="H5v-p5-Tf3" firstAttribute="width" secondItem="w91-b5-xHc" secondAttribute="width" id="IMX-hX-J74"/>
                             <constraint firstItem="fTg-kJ-Z52" firstAttribute="centerX" secondItem="KYg-WS-jRx" secondAttribute="centerX" id="JLi-rK-hXE"/>
                             <constraint firstItem="H5v-p5-Tf3" firstAttribute="top" secondItem="w91-b5-xHc" secondAttribute="top" id="MZD-C5-3ml"/>
-                            <constraint firstItem="zUb-XQ-ar7" firstAttribute="top" secondItem="H5v-p5-Tf3" secondAttribute="bottom" constant="8" id="V8p-Pw-lIj"/>
-                            <constraint firstItem="w91-b5-xHc" firstAttribute="top" secondItem="fTg-kJ-Z52" secondAttribute="bottom" constant="45" id="a0p-nt-v8I"/>
+                            <constraint firstItem="zUb-XQ-ar7" firstAttribute="top" secondItem="H5v-p5-Tf3" secondAttribute="bottom" constant="5" id="V8p-Pw-lIj"/>
+                            <constraint firstItem="w91-b5-xHc" firstAttribute="top" secondItem="fTg-kJ-Z52" secondAttribute="bottom" constant="25" id="a0p-nt-v8I"/>
                             <constraint firstItem="H5v-p5-Tf3" firstAttribute="centerX" secondItem="KYg-WS-jRx" secondAttribute="centerX" id="aez-bo-Y1c"/>
-                            <constraint firstItem="ZOg-oa-2Gg" firstAttribute="bottom" secondItem="MM1-6d-fuL" secondAttribute="bottom" constant="50" id="bKo-oT-IFA"/>
+                            <constraint firstItem="ZOg-oa-2Gg" firstAttribute="bottom" secondItem="MM1-6d-fuL" secondAttribute="bottom" constant="80" id="bKo-oT-IFA"/>
                             <constraint firstItem="MM1-6d-fuL" firstAttribute="centerX" secondItem="KYg-WS-jRx" secondAttribute="centerX" id="kqe-XZ-ZqX"/>
                             <constraint firstItem="fTg-kJ-Z52" firstAttribute="top" secondItem="b9m-IR-Iem" secondAttribute="bottom" constant="50" id="raA-a8-BL1"/>
                             <constraint firstItem="b9m-IR-Iem" firstAttribute="centerX" secondItem="KYg-WS-jRx" secondAttribute="centerX" id="xY7-P8-RK6"/>
-                            <constraint firstItem="b9m-IR-Iem" firstAttribute="top" secondItem="ZOg-oa-2Gg" secondAttribute="top" constant="80" id="zlN-Ci-mhS"/>
+                            <constraint firstItem="b9m-IR-Iem" firstAttribute="top" secondItem="ZOg-oa-2Gg" secondAttribute="top" constant="50" id="zlN-Ci-mhS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZOg-oa-2Gg"/>
                     </view>
