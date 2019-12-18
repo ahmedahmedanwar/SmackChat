@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>324952885906-m1ht6fkge4k760vsp34m4k8d2jtf1oqa.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.324952885906-m1ht6fkge4k760vsp34m4k8d2jtf1oqa</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAcGIj6V9EUEi7nK0qSYaRv5HmwuCU-mLE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>324952885906</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Ahmedanwar.SmackChat</string>
+	<key>PROJECT_ID</key>
+	<string>slackchat-4c812</string>
+	<key>STORAGE_BUCKET</key>
+	<string>slackchat-4c812.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:324952885906:ios:f290bc8ca3f56e1ff0344b</string>
+	<key>DATABASE_URL</key>
+	<string>https://slackchat-4c812.firebaseio.com</string>
+</dict>
+</plist>

@@ -12,8 +12,11 @@ pod 'Alamofire'
 pod 'SwiftyJSON'
 
 pod 'Socket.IO-Client-Swift'
-pod 'TransitionButton'
 pod 'DCAnimationKit'
-
+pod 'Firebase'
+pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Firestore'
 
 end

@@ -68,7 +68,9 @@ class AuthService {
             "password" : password
         ]
         
-        Alamofire.request(  URL_REGISTER, method: .post, parameters: body, encoding: JSONEncoding.default, headers: HEADER).responseString { (response) in
+        
+      
+        Alamofire.request(  URL_REGISTER, method: .get, parameters: body, encoding: JSONEncoding.default, headers: HEADER).responseString { (response) in
             if response.result.error == nil {
                 
                 completion (true)
@@ -151,7 +153,6 @@ class AuthService {
             "Authorization":"Bearer \(AuthService.instance.authToken)",
             "Content-Type": "application/json; charset=utf-8"
         ]
-        
         Alamofire.request(URL_USER_ADD, method: .post, parameters: body, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
             
             if response.result.error == nil {
