@@ -69,7 +69,7 @@ class AuthService {
         ]
         
         
-      
+        
         Alamofire.request(  URL_REGISTER, method: .get, parameters: body, encoding: JSONEncoding.default, headers: HEADER).responseString { (response) in
             if response.result.error == nil {
                 
@@ -78,10 +78,10 @@ class AuthService {
                 
                 completion (false)
                 print(response.request as Any)  // original URL request
-                           print(response.response as Any) // URL response
-                           print(response.result.value as Any)   // result of response serialization
-
-                           debugPrint(response)
+                print(response.response as Any) // URL response
+                print(response.result.value as Any)   // result of response serialization
+                
+                debugPrint(response)
                 debugPrint(response.result.error as Any)
             }
         }

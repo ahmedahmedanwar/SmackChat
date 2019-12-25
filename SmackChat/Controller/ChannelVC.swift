@@ -7,10 +7,9 @@
 //
 
 import UIKit
-import TransitionButton 
 
 
-class ChannelVC: CustomTransitionViewController{
+class ChannelVC: UIViewController{
     
 
     //outlets

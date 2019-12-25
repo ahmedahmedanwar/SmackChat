@@ -7,21 +7,19 @@
 //
 
 import UIKit
-import DCAnimationKit
-import TransitionButton
 import Alamofire
 import Firebase
 import FirebaseAuth
-import SVProgressHUD
-
 
 class CreatAccountVC: UIViewController {
     
+    
     // Variables
+   var avatarName1 = ""
+
     var avatarName = "profileDefault"
     var avatarColor = "[0.5, 0.5, 0.5, 1]"
-    
-    @IBOutlet weak var createAccountBtnoutlet: TransitionButton!
+    @IBOutlet weak var createAccountBtnoutlet: UIButton!
     
     @IBOutlet weak var userNameTxt: UITextField!
     @IBOutlet weak var emailTxt: UITextField!
@@ -42,14 +40,19 @@ class CreatAccountVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         if UserDataService.instance.avatarName != "" {
             
-            userImage.image = UIImage(named: UserDataService.instance.avatarName)
+       //     userImage.image = UIImage(named: UserDataService.instance.avatarName)
+            
+         //   userImage.image = avatarName1 as? UIImage
             avatarName = UserDataService.instance.avatarName
+            
         }
     }
     
-    @IBAction func createAccountBtn(_ button: TransitionButton) {
+    @IBAction func createAccountBtn(_ button: UIButton) {
         
-//        //    SVProgressHUD.show()
+//        //    SVProgressHUD.
+        
+        ()
 //
         //FireBase auth
         let userName = userNameTxt
@@ -71,6 +74,7 @@ class CreatAccountVC: UIViewController {
                     "avatarName": self.avatarName as NSObject,
                     "avatarColor": self.avatarColor as NSObject
                 ])
+                
              self.performSegue(withIdentifier: UNWIND, sender: self)
             }
 
@@ -130,7 +134,14 @@ class CreatAccountVC: UIViewController {
     
     
     @IBAction func chooseAvatarBtn(_ sender: Any) {
-        performSegue(withIdentifier: TO_AVATAR_PIKER, sender: nil)
+        
+                   performSegue(withIdentifier: TO_AVATAR_PIKER, sender: nil)
+
+    
+    
+    
+    
+        
     }
     
     
@@ -166,7 +177,7 @@ class CreatAccountVC: UIViewController {
     }
     
     func userhasBeenRegistered() {
-           let alert = UIAlertController(title: "Congratese ", message: "You has been Registered Successfully", preferredStyle: UIAlertController.Style.alert)
+           let alert = UIAlertController(title: "Congrates ", message: "You has been Registered Successfully", preferredStyle: UIAlertController.Style.alert)
            
            alert.addAction(UIAlertAction(title: " OK ",
                                          style: UIAlertAction.Style.destructive,
