@@ -18,13 +18,12 @@ class PhotoCell : UICollectionViewCell {
       override func awakeFromNib() {
           super.awakeFromNib()
         setUpView()
-        
+
         
     }
     func receiveImg(image:UIImage){
         
         photosImg.image = image
-   //     self.photosImg = 
     }
     
     func setUpView (){

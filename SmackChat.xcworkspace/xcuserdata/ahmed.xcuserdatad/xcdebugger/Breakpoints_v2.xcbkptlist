@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B6F93057-659A-4EA2-97ED-4A80EDE38322"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SmackChat/Controller/CreatAccountVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "createAccountBtn(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B6F93057-659A-4EA2-97ED-4A80EDE38322 - 3106d2c1bd15ca47"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SmackChat.CreatAccountVC.createAccountBtn(__C.UIButton) -&gt; ()"
-                  moduleName = "SmackChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ahmed/Desktop/IOS%20Projects/SmackChat/SmackChat/Controller/CreatAccountVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "78"
-                  endingLineNumber = "78"
-                  offsetFromSymbolStart = "1912">
-               </Location>
-               <Location
-                  uuid = "B6F93057-659A-4EA2-97ED-4A80EDE38322 - 8cb4e6557d7e173b"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SmackChat.CreatAccountVC.createAccountBtn(__C.UIButton) -&gt; ()"
-                  moduleName = "SmackChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ahmed/Desktop/IOS%20Projects/SmackChat/SmackChat/Controller/CreatAccountVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "85">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "0AC7AF66-44C2-45A6-AD97-24777D6B4540"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -62,9 +14,9 @@
             filePath = "SmackChat/Controller/AvatarPickerVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "collectionView(_:didSelectItemAt:)"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "collectionView(_:layout:sizeForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

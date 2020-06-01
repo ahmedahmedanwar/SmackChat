@@ -21,8 +21,9 @@ class ChatVC: UIViewController {
         manuButton.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(animated:)), for: .touchUpInside)
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
-    }
-    
-
   
+    
+    }
+  
+
 }

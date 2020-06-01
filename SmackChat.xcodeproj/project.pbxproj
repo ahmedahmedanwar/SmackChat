@@ -22,8 +22,10 @@
 		E2ABB58D238ACA3B00AAEE84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2ABB58B238ACA3B00AAEE84 /* LaunchScreen.storyboard */; };
 		E2D7B84E238D898200B98044 /* CreatAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7B84D238D898200B98044 /* CreatAccountVC.swift */; };
 		E2DB5FB823B064C4002D502E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2DB5FB723B064C4002D502E /* GoogleService-Info.plist */; };
+		E2E3E81923B490D600D652E8 /* CurrentUserFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E3E81823B490D600D652E8 /* CurrentUserFirebase.swift */; };
 		E2E427E823AAF16100130044 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E427E723AAF16100130044 /* PhotoCell.swift */; };
 		E2EA2FE2239F3CE300C2EDB2 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA2FE1239F3CE300C2EDB2 /* UserDataService.swift */; };
+		E2F023BB23B3A7B0006EA51B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F023BA23B3A7B0006EA51B /* CircleImage.swift */; };
 		E2F4160C238C027800324E60 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4160B238C027800324E60 /* GradientView.swift */; };
 		E2F4160F238C1D1B00324E60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4160E238C1D1B00324E60 /* Constants.swift */; };
 		E2F41611238C2D6C00324E60 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F41610238C2D6C00324E60 /* LoginVC.swift */; };
@@ -53,8 +55,10 @@
 		E2ABB58E238ACA3B00AAEE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D7B84D238D898200B98044 /* CreatAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatAccountVC.swift; sourceTree = "<group>"; };
 		E2DB5FB723B064C4002D502E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E2E3E81823B490D600D652E8 /* CurrentUserFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserFirebase.swift; sourceTree = "<group>"; };
 		E2E427E723AAF16100130044 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		E2EA2FE1239F3CE300C2EDB2 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		E2F023BA23B3A7B0006EA51B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		E2F4160B238C027800324E60 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		E2F4160E238C1D1B00324E60 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E2F41610238C2D6C00324E60 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 			children = (
 				E2A26A942399E2FC0002BA3A /* AuthenticateServices.swift */,
 				E2EA2FE1239F3CE300C2EDB2 /* UserDataService.swift */,
+				E2E3E81823B490D600D652E8 /* CurrentUserFirebase.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				E2050F23239B43DB0009D0EC /* RoundedButton.swift */,
 				E28FFBE823A21B110092F289 /* AvatarCell.swift */,
 				E2E427E723AAF16100130044 /* PhotoCell.swift */,
+				E2F023BA23B3A7B0006EA51B /* CircleImage.swift */,
 			);
 			path = "View models";
 			sourceTree = "<group>";
@@ -335,11 +341,13 @@
 				E2D7B84E238D898200B98044 /* CreatAccountVC.swift in Sources */,
 				E2F4160C238C027800324E60 /* GradientView.swift in Sources */,
 				E2EA2FE2239F3CE300C2EDB2 /* UserDataService.swift in Sources */,
+				E2E3E81923B490D600D652E8 /* CurrentUserFirebase.swift in Sources */,
 				E2050F24239B43DB0009D0EC /* RoundedButton.swift in Sources */,
 				E20F1D8823AA80E90000DC17 /* PhotosViewController.swift in Sources */,
 				E2ABB583238ACA3A00AAEE84 /* SceneDelegate.swift in Sources */,
 				E2F4160F238C1D1B00324E60 /* Constants.swift in Sources */,
 				E24AE890238BB809008A6EFF /* SWRevealViewController.m in Sources */,
+				E2F023BB23B3A7B0006EA51B /* CircleImage.swift in Sources */,
 				E24AE896238BC39E008A6EFF /* ChannelVC.swift in Sources */,
 				E28FFBE723A216050092F289 /* AvatarPickerVC.swift in Sources */,
 			);
@@ -489,6 +497,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SmackChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,6 +519,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SmackChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

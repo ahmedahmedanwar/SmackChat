@@ -32,6 +32,7 @@ class PhotosViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         pupulateImgages()
             clousureCallBack  = {image in
            
@@ -50,7 +51,7 @@ class PhotosViewController: UIViewController {
 extension PhotosViewController : UICollectionViewDelegate, UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.images.count
+        return images.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

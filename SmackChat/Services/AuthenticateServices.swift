@@ -23,7 +23,7 @@ class AuthService {
             return defaults.bool(forKey: LOGGED_IN_KEY)
         }
         set{
-            
+        
             return defaults.set(newValue, forKey: LOGGED_IN_KEY)
         }
     }
@@ -168,6 +168,7 @@ class AuthService {
                     UserDataService.instance.setUserData(id: id, color: color, avatarName: avatarName, email: email, name: name)
                     completion(true)
                 }catch{
+                
                     print("error")
                 }
                 

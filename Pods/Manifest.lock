@@ -1,89 +1,96 @@
 PODS:
   - Alamofire (4.9.1)
-  - Firebase (6.14.0):
-    - Firebase/Core (= 6.14.0)
-  - Firebase/Auth (6.14.0):
+  - Firebase (6.25.0):
+    - Firebase/Core (= 6.25.0)
+  - Firebase/Auth (6.25.0):
     - Firebase/CoreOnly
-    - FirebaseAuth (~> 6.4.1)
-  - Firebase/Core (6.14.0):
+    - FirebaseAuth (~> 6.5.3)
+  - Firebase/Core (6.25.0):
     - Firebase/CoreOnly
-    - FirebaseAnalytics (= 6.1.7)
-  - Firebase/CoreOnly (6.14.0):
-    - FirebaseCore (= 6.5.0)
-  - Firebase/Database (6.14.0):
+    - FirebaseAnalytics (= 6.5.1)
+  - Firebase/CoreOnly (6.25.0):
+    - FirebaseCore (= 6.7.1)
+  - Firebase/Database (6.25.0):
     - Firebase/CoreOnly
-    - FirebaseDatabase (~> 6.1.3)
-  - FirebaseAnalytics (6.1.7):
-    - FirebaseCore (~> 6.5)
-    - FirebaseInstanceID (~> 4.2)
-    - GoogleAppMeasurement (= 6.1.7)
+    - FirebaseDatabase (~> 6.2.1)
+  - FirebaseAnalytics (6.5.1):
+    - FirebaseCore (~> 6.7)
+    - FirebaseInstallations (~> 1.2)
+    - GoogleAppMeasurement (= 6.5.1)
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
     - GoogleUtilities/Network (~> 6.0)
     - "GoogleUtilities/NSData+zlib (~> 6.0)"
-    - nanopb (= 0.3.9011)
-  - FirebaseAuth (6.4.1):
+    - nanopb (~> 1.30905.0)
+  - FirebaseAuth (6.5.3):
     - FirebaseAuthInterop (~> 1.0)
-    - FirebaseCore (~> 6.2)
-    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
-    - GoogleUtilities/Environment (~> 6.2)
+    - FirebaseCore (~> 6.6)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.5)
     - GTMSessionFetcher/Core (~> 1.1)
-  - FirebaseAuthInterop (1.0.0)
-  - FirebaseCore (6.5.0):
-    - FirebaseCoreDiagnostics (~> 1.0)
-    - FirebaseCoreDiagnosticsInterop (~> 1.0)
-    - GoogleUtilities/Environment (~> 6.4)
-    - GoogleUtilities/Logger (~> 6.4)
-  - FirebaseCoreDiagnostics (1.1.2):
-    - FirebaseCoreDiagnosticsInterop (~> 1.0)
-    - GoogleDataTransportCCTSupport (~> 1.0)
-    - GoogleUtilities/Environment (~> 6.2)
-    - GoogleUtilities/Logger (~> 6.2)
-    - nanopb (~> 0.3.901)
-  - FirebaseCoreDiagnosticsInterop (1.1.0)
-  - FirebaseDatabase (6.1.3):
+  - FirebaseAuthInterop (1.1.0)
+  - FirebaseCore (6.7.1):
+    - FirebaseCoreDiagnostics (~> 1.3)
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+  - FirebaseCoreDiagnostics (1.3.0):
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleDataTransportCCTSupport (~> 3.1)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+    - nanopb (~> 1.30905.0)
+  - FirebaseCoreDiagnosticsInterop (1.2.0)
+  - FirebaseDatabase (6.2.1):
     - FirebaseAuthInterop (~> 1.0)
     - FirebaseCore (~> 6.0)
     - leveldb-library (~> 1.22)
-  - FirebaseInstanceID (4.2.8):
-    - FirebaseCore (~> 6.5)
-    - GoogleUtilities/Environment (~> 6.4)
-    - GoogleUtilities/UserDefaults (~> 6.4)
-  - GoogleAppMeasurement (6.1.7):
+  - FirebaseInstallations (1.2.0):
+    - FirebaseCore (~> 6.6)
+    - GoogleUtilities/Environment (~> 6.6)
+    - GoogleUtilities/UserDefaults (~> 6.6)
+    - PromisesObjC (~> 1.2)
+  - FirebaseStorage (3.6.1):
+    - FirebaseAuthInterop (~> 1.1)
+    - FirebaseCore (~> 6.6)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleAppMeasurement (6.5.1):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
     - GoogleUtilities/Network (~> 6.0)
     - "GoogleUtilities/NSData+zlib (~> 6.0)"
-    - nanopb (= 0.3.9011)
-  - GoogleDataTransport (3.2.0)
-  - GoogleDataTransportCCTSupport (1.2.3):
-    - GoogleDataTransport (~> 3.2)
-    - nanopb (~> 0.3.901)
-  - GoogleUtilities/AppDelegateSwizzler (6.4.0):
+    - nanopb (~> 1.30905.0)
+  - GoogleDataTransport (6.1.1)
+  - GoogleDataTransportCCTSupport (3.1.0):
+    - GoogleDataTransport (~> 6.1)
+    - nanopb (~> 1.30905.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.6.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (6.4.0)
-  - GoogleUtilities/Logger (6.4.0):
+  - GoogleUtilities/Environment (6.6.0):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.6.0):
     - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (6.4.0):
+  - GoogleUtilities/MethodSwizzler (6.6.0):
     - GoogleUtilities/Logger
-  - GoogleUtilities/Network (6.4.0):
+  - GoogleUtilities/Network (6.6.0):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (6.4.0)"
-  - GoogleUtilities/Reachability (6.4.0):
+  - "GoogleUtilities/NSData+zlib (6.6.0)"
+  - GoogleUtilities/Reachability (6.6.0):
     - GoogleUtilities/Logger
-  - GoogleUtilities/UserDefaults (6.4.0):
+  - GoogleUtilities/UserDefaults (6.6.0):
     - GoogleUtilities/Logger
-  - GTMSessionFetcher/Core (1.3.0)
+  - GTMSessionFetcher/Core (1.4.0)
   - leveldb-library (1.22)
-  - nanopb (0.3.9011):
-    - nanopb/decode (= 0.3.9011)
-    - nanopb/encode (= 0.3.9011)
-  - nanopb/decode (0.3.9011)
-  - nanopb/encode (0.3.9011)
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - PromisesObjC (1.2.8)
   - Socket.IO-Client-Swift (15.2.0):
     - Starscream (~> 3.1)
   - Starscream (3.1.1)
@@ -94,6 +101,7 @@ DEPENDENCIES:
   - Firebase
   - Firebase/Auth
   - Firebase/Database
+  - FirebaseStorage
   - Socket.IO-Client-Swift
   - SwiftyJSON
 
@@ -108,7 +116,8 @@ SPEC REPOS:
     - FirebaseCoreDiagnostics
     - FirebaseCoreDiagnosticsInterop
     - FirebaseDatabase
-    - FirebaseInstanceID
+    - FirebaseInstallations
+    - FirebaseStorage
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
@@ -116,32 +125,35 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
+    - PromisesObjC
     - Socket.IO-Client-Swift
     - Starscream
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  Firebase: 0219bb4782eb1406f1b9b0628a2e625484ce910d
-  FirebaseAnalytics: f68b9f3f1241385129ae0a83b63627fc420c05e5
-  FirebaseAuth: 831577b184ecaba38bc886768c1c22a450cc44e3
-  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
-  FirebaseCore: 632e05cc5e1199d9147122c16d92305eb04c34bd
-  FirebaseCoreDiagnostics: 511f4f3ed7d440bb69127e8b97c2bc8befae639e
-  FirebaseCoreDiagnosticsInterop: e9b1b023157e3a2fc6418b5cb601e79b9af7b3a0
-  FirebaseDatabase: 9db0c9bb6d3308870cc831a8a6d70c82fd169f37
-  FirebaseInstanceID: ce993a3c3670a8f5d47ce371ac5d143c560608c5
-  GoogleAppMeasurement: db118eb61a97dd8c4f7014e368d3c335cbbcf80a
-  GoogleDataTransport: 8e9b210c97d55fbff306cc5468ff91b9cb32dcf5
-  GoogleDataTransportCCTSupport: 202d7cdf9c4a7d81a2bb7f7e7e1ba6faa421b1f2
-  GoogleUtilities: 29bd0d8f850efbd28cff6d99e8b7da1f8d236bcf
-  GTMSessionFetcher: 43b8b64263023d4f32caa0b40f4c8bfa3c5f36d8
+  Firebase: 5719b4f965f76643241a1bb8244483ff6117db39
+  FirebaseAnalytics: 93565f3f0f0f50a5d8770850bfe6a82eaba5db27
+  FirebaseAuth: 7047aec89c0b17ecd924a550c853f0c27ac6015e
+  FirebaseAuthInterop: a0f37ae05833af156e72028f648d313f7e7592e9
+  FirebaseCore: 6023faeada5afa95a349fccafb40900e32e9ac42
+  FirebaseCoreDiagnostics: 4a773a47bd83bbd5a9b1ccf1ce7caa8b2d535e67
+  FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
+  FirebaseDatabase: 4e99c0c475d1ee0aa64ae2b53c93f80b7b60d7d9
+  FirebaseInstallations: 2119fb3e46b0a88bfdbf12562f855ee3252462fa
+  FirebaseStorage: f4f39ae834a7145963b913f54e2f24a9db1d8fac
+  GoogleAppMeasurement: 137afe68bfa406c3f4221b9395253d9e5d4654cf
+  GoogleDataTransport: ad884314b81cdb808fb1d23787b367ff8da4e28a
+  GoogleDataTransportCCTSupport: d70a561f7d236af529fee598835caad5e25f6d3d
+  GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
-  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 982f5cf2ef09fd0449e8eae0573a5aa3d4d6f801
+PODFILE CHECKSUM: fdfb0886b5d448346e1e8a709eec579356c8d331
 
 COCOAPODS: 1.8.4
